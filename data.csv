@@ -1,0 +1,2 @@
+Arbitrum,0x5d381f0286e8f4e9e5b789d4c791cbcf5b428775f3103347f636c589be2bb51c,Optimism,0x99d04ee16de0f044c66913d2a51073316c788e0ab60a9ab722fecd4a15ca4fd4,0xa492c73a8e6bca6efd7711237708fb0e72d05050,Thu Aug 10 2023 19:22:52 GMT+0300 (Москва, стандартное время),Stargate,,92.71,
+//This is example line from my database i cant upload a big data.csv table because github limit is 25mb.As you can see in script this data is downloaded from mysql database which is copy of Uploaded transaction data from layerzero
