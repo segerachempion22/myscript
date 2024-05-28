@@ -19,6 +19,6 @@ Description of scripts:
 ,
  Third file is [walletremover.js](walletremover.js) it removes already proceeded wallets from database.
 
- The structure of sybil data that i provided looks like: In [syblis folder](syblis) there are folders(named "sybils *number of wallets in cluster* wallets *their top in one public checker*" for every cluster that i found, in each you can see 3-5 files two of them is LIST of wallets AND onchain proofs that wallets have similar activity(some of them have diffrent chain evm path,for example one have arbitrum - fantom - optimism - core second have arbitrum-optimism - fantom - core,but in generaly their are sybils because sum of source chains,protocols are equal, just path have some difference) ALSO i provided screenshots from database with onchain stats in numbers.
+ The structure of sybil data that i provided looks like: In [syblis folder](sybils) there are folders(named "sybils *number of wallets in cluster* wallets *their top in one public checker*" for every cluster that i found, in each you can see 3-5 files two of them is LIST of wallets AND onchain proofs that wallets have similar activity(some of them have diffrent chain evm path,for example one have arbitrum - fantom - optimism - core second have arbitrum-optimism - fantom - core,but in generaly their are sybils because sum of source chains,protocols are equal, just path have some difference) ALSO i provided screenshots from database with onchain stats in numbers.
 ### Reward Address: 
 0xFe21E1F8d8d3A1C18d698e2D9b763B6BC850b339
