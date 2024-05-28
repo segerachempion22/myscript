@@ -1,0 +1,1 @@
+When I used this query to my database "SELECT * FROM layerzero.userstatistics WHERE TransactionsCount = 7 AND UniqueActiveDays = 3 AND InteractedContractsCount = 2 AND BridgedAmount > 140 AND BridgedAmount < 160;" i saw that all ot of wallets have been created in one day,so i parsed their onchain data and found some clusters which have the same layerzero transactions
