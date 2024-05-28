@@ -1,4 +1,4 @@
-# My sybil lists are in folder sybils checkout it
+# My sybil lists are in folder [sybils](sybils) checkout it
 ## How i worked
  The method I used to find them wasn't very hard. I started when transaction data and Sybil lists by LayerZero weren't published yet, so I parsed some wallet statistics from Dune into a MySQL database. After that, I looked for a way to parse wallets' LayerZero transactions, but one day all the data was published, which helped me a lot. So, I put it into a second MySQL database.
 
