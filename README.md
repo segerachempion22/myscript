@@ -13,8 +13,8 @@ Description of scripts:
 
 First file is Index.js this file is downloading layerzero transactions data from database into a file data.csv(wallets that i need to check are stored in wallets.txt)
 
-Second file that i used is transfilter.js this file proceed data from data.csv and checking same onchain activity for wallets,if transfilter.js founds something it creates two json files with clusters(one is a list of wallets second is their onchain data)
-
+Second file that i used is transfilter.js this file proceed data from data.csv and checking same onchain activity for wallets,if transfilter.js founds something it creates two json files with clusters(one is a list of wallets second is their onchain data),but after that file creates .json files with lists of sybils they still need to be checked because there can be small difference between 1 person sybils like some of his wallets done 1 more trans than other part,but their still same sybils and must be stored together like one cluster.
+,
 Third file is walletremover.js it removes already proceeded wallets from database.
 
 The structure of sybil data that i provided looks like: In syblis folder there are folders(named "sybils *number of wallets in cluster* wallets *their top in one public checker*" for every cluster that i found, in each you can see 3-5 files two of them is LIST of wallets AND onchain proofs that wallets have similar activity(some of them have diffrent chain evm path,for example one have arbitrum - fantom - optimism - core second have arbitrum-optimism - fantom - core,but in generaly their are sybils because sum of source chains,protocols are equal, just path have some difference) ALSO i provided screenshots from database with onchain stats in numbers.
