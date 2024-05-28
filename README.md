@@ -9,7 +9,8 @@ In the beginning, I wanted to find wallets that have the same LayerZero transact
 			 FROM userstatistics
 			 GROUP BY TransactionsCount, UniqueActiveDays, InteractedContractsCount, LZAgeInDays, lower_bound, upper_bound
 			 HAVING COUNT(*) > 1;'.
-Description of scripts
+Description of scripts:
+
 First file is Index.js this file is downloading layerzero transactions data from database into file data.csv(wallets that i need to check i store in wallets.txt)
 
 Second file that i used is transfilter.js this file proceed data from data.csv and checking same onchain activity for wallets,if transfilter.js founds something it creates two json files with clusters(one is a list of wallets second is their onchain data)
