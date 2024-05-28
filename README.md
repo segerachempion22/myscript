@@ -1,3 +1,5 @@
+# My sybil lists are in folder sybils checkout it
+## How i worked
  The method I used to find them wasn't very hard. I started when transaction data and Sybil lists by LayerZero weren't published yet, so I parsed some wallet statistics from Dune into a MySQL database. After that, I looked for a way to parse wallets' LayerZero transactions, but one day all the data was published, which helped me a lot. So, I put it into a second MySQL database.
 
  In the beginning, I wanted to find wallets that have the same LayerZero transaction history according to my database. However, I had never worked with such large datasets before. After many days of searching for ways to process the data, I abandoned this way and started to identify similar wallets manually. I searched my database for clusters of wallets that were created in the same week or had done the same number of transactions with the same volume using queries like this(i used different just to find out some strange activity clusters like in 1 day was created a lot of wallets with same stats and then i moved to scripts to check their onchain activity,check database screenshots in sybils/example for a examples)
